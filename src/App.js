@@ -1,10 +1,10 @@
 import './App.css';
-import XDictionary from './components/XDictinory';
+import DictionaryApp from './components/DictinoryApp';
 
 function App() {
   return (
     <div className="App">
-     <XDictionary />
+     <DictionaryApp />
     </div>
   );
 }

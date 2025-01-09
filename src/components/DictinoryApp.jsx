@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const XDictionary = () => {
+const DictionaryApp = () => {
   // Initialize the dictionary state
   const dictionary = [
     { word: "React", meaning: "A JavaScript library for building user interfaces." },
@@ -53,7 +53,7 @@ const XDictionary = () => {
       >
         Search
       </button>
-      <h4>Definition</h4>
+      <h4>Definition:</h4>
       {result && (
         <div style={{ marginTop: "20px", fontSize: "16px", color: "#333" }}>
           {result}
@@ -63,4 +63,4 @@ const XDictionary = () => {
   );
 };
 
-export default XDictionary;
+export default DictionaryApp;
