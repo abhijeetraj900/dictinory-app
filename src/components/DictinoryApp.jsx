@@ -30,7 +30,7 @@ const DictionaryApp = () => {
         type="text"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
-        placeholder="Enter a word..."
+        placeholder="Search for a word..."
         style={{
           width: "100%",
           padding: "10px",
